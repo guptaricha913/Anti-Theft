@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="top">
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+     <TableRow
+	    android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+   <TextView
+      android:text=" "
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" 
+      android:gravity="bottom"/>
+   </TableRow>
+	<TableRow
+	    android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+   <TextView
+      android:text="Full Name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" 
+      android:gravity="bottom"/>
+
+   <EditText
+       android:id="@+id/ed_Reg_Name"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="text">
+       <requestFocus />
+   </EditText>
+   </TableRow>
+ 
+   <TableRow>
+   <TextView
+      android:text="Email ID"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" />
+
+   <EditText
+       android:id="@+id/ed_Reg_Email"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="textEmailAddress">
+   </EditText>
+   </TableRow>
+   <TableRow>
+   <TextView
+      android:text="PIN number"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" />
+
+   <EditText
+       android:id="@+id/ed_Reg_Pin"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       >
+   </EditText>
+   </TableRow>
+   <TableRow>
+   <TextView
+      android:text="IMEI Number"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1"      
+      />
+
+   <EditText
+       android:id="@+id/ed_Reg_IMEI"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:clickable="false"    
+       android:focusableInTouchMode="false"
+       android:inputType="none" 
+       android:visibility="visible" >
+   </EditText>
+   </TableRow>
+    <TableRow>
+   <TextView
+      android:text="Contact Number"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" />
+
+   <EditText
+       android:id="@+id/ed_Reg_MobileNo"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10" 
+       android:inputType="phone">
+   </EditText>
+   </TableRow>
+    <TableRow>
+   <TextView
+      android:text="Alternative Contact"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" />
+
+   <EditText
+       android:id="@+id/ed_Reg_AlternativeContact"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="phone">
+   </EditText>
+   </TableRow>
+   <TableRow>
+   <TextView
+      android:text="Password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1" />
+
+   <EditText
+       android:id="@+id/ed_Reg_Password"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="textPassword">
+   </EditText>
+   </TableRow>
+   <TableRow>
+   <TextView
+      android:text="Confirm Password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_column="1"
+       />
+
+   <EditText
+       android:id="@+id/ed_Reg_ConfirmPassword"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="textPassword" >
+   </EditText>
+   </TableRow>   
+</TableLayout>
+<Button
+      	android:id="@+id/btnRegistered"
+      	android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:background="#2683c2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+    
+</LinearLayout>
+</ScrollView>

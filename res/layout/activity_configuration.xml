@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<Button
+        android:id="@+id/btn_Menu"        
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:text="Menu"        
+        android:textColor="#ffffff"
+        android:background="#2683c2"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configurations:"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="#13b586"/>
+
+    <CheckBox
+        android:id="@+id/cb_sim_detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sim Card Detection" />
+
+    <CheckBox
+        android:id="@+id/cb_shout_siren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shout Siren" />
+
+    <CheckBox
+        android:id="@+id/cb_get_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Location via SMS" />
+
+    <CheckBox
+        android:id="@+id/cb_lock_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lock Phone" />
+
+   <Button
+        android:id="@+id/btn_SaveConfig"        
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Save"        
+        android:textColor="#ffffff"
+        android:background="#13b586"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
