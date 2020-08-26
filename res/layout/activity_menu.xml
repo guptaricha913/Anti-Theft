@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="" />
+	<Button
+        android:id="@+id/btn_viewConfig"        
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="View Configurations" 
+        android:textColor="#ffffff"
+        android:background="#13b586"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+	<Button
+        android:id="@+id/btn_viewProfile"        
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="View Profile" 
+        android:textColor="#ffffff"
+        android:background="#13b586"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+	<Button
+        android:id="@+id/btn_editProfile"        
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Edit Profile" 
+        android:textColor="#ffffff"
+        android:background="#13b586"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+	<Button
+        android:id="@+id/btn_SendMsg"        
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Send Message" 
+        android:textColor="#ffffff"
+        android:background="#13b586"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+	<Button
+        android:id="@+id/btn_Logout"        
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:text="Logout" 
+        android:textColor="#ffffff"
+        android:background="#13b586"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+	
+</LinearLayout>
+</ScrollView>
